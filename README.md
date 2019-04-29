@@ -1,6 +1,6 @@
 # Att-Card
 
-- author: Zhang Jun
+- author: ZSQ
 
 ## Start
 
