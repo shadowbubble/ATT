@@ -1,0 +1,24 @@
+{
+  "name": "att-card",
+  "version": "0.1.0",
+  "description": "Att Card in TypeScript",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --inspect app.js",
+    "serve": "node app.js",
+    "start": "start http://localhost:3000"
+  },
+  "keywords": [
+    "NodeJs"
+  ],
+  "author": "zhangjun <jonzhang2019@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "norepo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
