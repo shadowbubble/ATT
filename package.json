@@ -1,24 +1,25 @@
 {
   "name": "att-card",
-  "version": "0.1.0",
-  "description": "Att Card in TypeScript",
+  "version": "0.2.1",
+  "description": "Att Card in JavaScript",
   "main": "app.js",
   "scripts": {
-    "dev": "node --inspect app.js",
-    "serve": "node app.js",
-    "start": "start http://localhost:3000"
+    "dev": "node src/app.js"
   },
   "keywords": [
     "NodeJs"
   ],
-  "author": "zhangjun <jonzhang2019@outlook.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "norepo.git"
+    "url": "ccc.git"
   },
-  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "hash.js": "^1.1.7",
+    "mysql": "^2.17.1"
   }
 }
